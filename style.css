@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "MySpaceFont";
+  src: url("./fonts/TT_Octosquares_Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "MySpaceFont", sans-serif;
+}
+.menu {
+  position: absolute;
+  bottom: 20px;
+  left: 550px;
+}
+.planet_button,
+.leave {
+  width: 140px;
+  height: 70px;
+  margin-left: 5px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.8px);
+  -webkit-backdrop-filter: blur(12.8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 23px;
+}
+.leave {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.system {
+  position: absolute;
+  right: 180px;
+  top: 20px;
+  font-size: 19px;
+}
+.description {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 500px;
+  height: 96%;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.8px);
+  -webkit-backdrop-filter: blur(12.8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.description_header {
+  color: #fff;
+  font-size: 36px;
+}
+.description_paragraph {
+  color: #fff;
+  font-size: 16px;
+}
+.load {
+  display: block;
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  z-index: 1000;
+  background-color: rgb(25, 29, 32);
+  font-size: 42px;
+  text-align: center;
+  padding-top: 520px;
+  color: #fff;
+  box-sizing: border-box;
+}

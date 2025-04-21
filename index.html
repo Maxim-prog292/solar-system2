@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./three.module.js",
+          "OrbitControls": "./OrbitControls.js",
+          "CSS2DRenderer": "./CSS2DRenderer.js"
+        }
+      }
+    </script>
+    <script src="script.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="margin: 0px">
+    <div class="load">Загрузка</div>
+    <button class="leave">Меню</button>
+    <button class="planet_button system">Общий вид</button>
+    <div class="description">
+      <p class="description_header">Солнечная система</p>
+      <p class="description_paragraph">
+        Солнечная система — планетная система, включающая в себя центральную
+        звезду Солнце и все естественные космические объекты на
+        гелиоцентрических орбитах. Она сформировалась путём гравитационного
+        сжатия газопылевого облака примерно 4,57 млрд лет назад.<br /><br />
+        Четыре ближайшие к Солнцу планеты, называемые планетами земной группы, —
+        Меркурий, Венера, Земля и Марс — состоят в основном из силикатов и
+        металлов. Четыре более удалённые от Солнца планеты, называемые
+        планетами-гигантами, — Юпитер, Сатурн, Уран и Нептун — намного более
+        массивны, чем планеты земной группы. <br /><br />Крупнейшие
+        планеты-гиганты, входящие в состав Солнечной системы, — Юпитер и Сатурн
+        — состоят главным образом из водорода и гелия и поэтому относятся к
+        газовым гигантам; меньшие планеты-гиганты — Уран и Нептун — помимо
+        водорода и гелия, преимущественно содержат воду, метан и аммиак, такие
+        планеты выделяются в отдельный класс «ледяных гигантов».
+        <br /><br />Шесть планет из восьми и четыре карликовые планеты имеют
+        естественные спутники. Юпитер, Сатурн, Уран и Нептун окружены кольцами
+        пыли и других частиц.
+      </p>
+    </div>
+    <div class="menu">
+      <button class="planet_button sun">Солнце</button>
+      <button class="planet_button merc">Меркурий</button>
+      <button class="planet_button venus">Венера</button>
+      <button class="planet_button earth">Земля</button>
+      <button class="planet_button mars">Марс</button>
+      <button class="planet_button jupiter">Юпитер</button>
+      <button class="planet_button saturn">Сатурн</button>
+      <button class="planet_button uranus">Уран</button>
+      <button class="planet_button neptune">Нептун</button>
+    </div>
+  </body>
+</html>

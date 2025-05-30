@@ -330,8 +330,8 @@ function addLabel(labelText, planetMesh) {
 }
 
 let asteroids = [];
-const SIZE = 0.5;
-for (let i = 0; i < 500; i++) {
+const SIZE = 0.1;
+for (let i = 0; i < 100; i++) {
   let R = 300 + Math.random() * 20;
   let angle = (Math.round(Math.random() * 360) * Math.PI) / 180;
   let positionZ = R * Math.sin(angle);
@@ -394,7 +394,7 @@ function animate() {
   asteroids.forEach((aster) => {
     aster.obj.rotateY(Math.random() / 1000);
   });
-  //Self-rotation
+  // Self-rotation
   sun.rotateY(0.002);
   mercury.mesh.rotateY(0.001);
   venus.mesh.rotateY(-0.002);
